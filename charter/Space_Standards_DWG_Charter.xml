@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ogc-standard xmlns="https://www.metanorma.org/ns/ogc" type="semantic" version="2.0.6">
+<bibdata type="standard">
+<title language="en" format="text/plain">OGC Space Standards Domain Working Group Charter</title>
+<contributor><role type="publisher"/><organization>
+<name>Open Geospatial Consortium</name>
+</organization></contributor><language>en</language><script>Latn</script><status><stage>approved</stage></status><copyright><from>2023</from><owner><organization>
+<name>Open Geospatial Consortium</name>
+</organization></owner></copyright><ext><doctype>standard</doctype><subdoctype>implementation</subdoctype></ext></bibdata><misc-container><presentation-metadata><name>TOC Heading Levels</name><value>4</value></presentation-metadata><presentation-metadata><name>TOC Heading Levels</name><value>4</value></presentation-metadata><presentation-metadata><name>TOC Heading Levels</name><value>4</value></presentation-metadata></misc-container>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <title>Copyright notice</title>
+
+      <p align="center" id="_4380411b-aa89-cc2d-d393-9800128f1de1">Copyright
+        © 2023 Open Geospatial Consortium<br/>
+        To obtain additional rights of use, visit
+        <link target="http://www.ogc.org/legal/">http://www.ogc.org/legal/</link></p>
+    </clause>
+    <clause>
+      <title>Note</title>
+      <p align="left" id="_11e88dba-9912-1a89-a82d-7291bf232191">Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. The Open Geospatial Consortium shall not be held responsible for identifying any or all such patent rights.</p>
+
+      <p align="left" id="_15067213-c07b-cba0-7e18-395ab2e00ab3">Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.</p>
+    </clause>
+  </copyright-statement>
+  <license-statement>
+    <clause>
+      <title>License Agreement</title>
+
+      <p id="_e8566381-218f-c22d-320d-4d0371bfd58f">Permission is hereby granted by the Open Geospatial
+        Consortium, (“Licensor”), free of charge and subject to the terms set
+        forth below, to any person obtaining a copy of this Intellectual Property and
+        any associated documentation, to deal in the Intellectual Property without
+        restriction (except as set forth below), including without limitation the
+        rights to implement, use, copy, modify, merge, publish, distribute, and/or
+        sublicense copies of the Intellectual Property, and to permit persons to whom
+        the Intellectual Property is furnished to do so, provided that all copyright notices
+        on the intellectual property are retained intact and that each person to whom
+        the Intellectual Property is furnished agrees to the terms of this Agreement.</p>
+
+      <p id="_52ebb386-d365-27d0-d76d-a59ac165fc4d">If you modify the Intellectual Property, all copies of
+        the modified Intellectual Property must include, in addition to the above
+        copyright notice, a notice that the Intellectual Property includes
+        modifications that have not been approved or adopted by LICENSOR.</p>
+
+      <p id="_178f14b4-0718-a5b8-09cd-84f8f4b756ed">THIS LICENSE IS A COPYRIGHT LICENSE ONLY, AND DOES NOT
+        CONVEY ANY RIGHTS UNDER ANY PATENTS THAT MAY BE IN FORCE ANYWHERE IN THE WORLD.
+        THE INTELLECTUAL PROPERTY IS PROVIDED “AS
+        IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+        LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+        AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. THE COPYRIGHT HOLDER OR HOLDERS
+        INCLUDED IN THIS NOTICE DO NOT WARRANT THAT THE FUNCTIONS CONTAINED IN THE
+        INTELLECTUAL PROPERTY WILL MEET YOUR REQUIREMENTS OR THAT THE OPERATION OF THE
+        INTELLECTUAL PROPERTY WILL BE UNINTERRUPTED OR ERROR FREE. ANY USE OF THE
+        INTELLECTUAL PROPERTY SHALL BE MADE ENTIRELY AT THE USER’S OWN RISK. IN NO
+        EVENT SHALL THE COPYRIGHT HOLDER OR ANY CONTRIBUTOR OF INTELLECTUAL PROPERTY
+        RIGHTS TO THE INTELLECTUAL PROPERTY BE LIABLE FOR ANY CLAIM, OR ANY DIRECT,
+        SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING
+        FROM ANY ALLEGED INFRINGEMENT OR ANY LOSS OF USE, DATA OR PROFITS, WHETHER IN
+        AN ACTION OF CONTRACT, NEGLIGENCE OR UNDER ANY OTHER LEGAL THEORY, ARISING OUT
+        OF OR IN CONNECTION WITH THE IMPLEMENTATION, USE, COMMERCIALIZATION OR
+        PERFORMANCE OF THIS INTELLECTUAL PROPERTY.</p>
+
+      <p id="_2ad7fe27-9ae4-52c5-9dd9-faa4004247fb">This license is effective until terminated. You may
+        terminate it at any time by destroying the Intellectual Property together with
+        all copies in any form. The license will also terminate if you fail to comply
+        with any term or condition of this Agreement. Except as provided in the
+        following sentence, no such termination of this license shall require the
+        termination of any third party end-user sublicense to the Intellectual Property
+        which is in force as of the date of notice of such termination. In addition,
+        should the Intellectual Property, or the operation of the Intellectual
+        Property, infringe, or in LICENSOR’s sole opinion be
+        likely to infringe, any patent, copyright, trademark or other right of a third
+        party, you agree that LICENSOR, in its sole discretion, may terminate this
+        license without any compensation or liability to you, your licensees or any
+        other party. You agree upon termination of any kind to destroy or cause to be
+        destroyed the Intellectual Property together with all copies in any form,
+        whether held by you or by any third party.</p>
+
+      <p id="_3254c815-179c-5f54-9a01-b8e964837171">Except as contained in this notice, the name of
+        LICENSOR or of any other holder of a copyright in all or part of the Intellectual
+        Property shall not be used in advertising or otherwise to promote the sale, use
+        or other dealings in this Intellectual Property without prior written
+        authorization of LICENSOR or such copyright holder. LICENSOR is and shall at
+        all times be the sole entity that may authorize you or any third party to use
+        certification marks, trademarks or other special designations to indicate
+        compliance with any LICENSOR standards or specifications.
+        This Agreement is
+        governed by the laws of the Commonwealth of Massachusetts. The application to
+        this Agreement of the United Nations Convention on Contracts for the
+        International Sale of Goods is hereby expressly excluded. In the event any
+        provision of this Agreement shall be deemed unenforceable, void or invalid, such
+        provision shall be modified so as to make it valid and enforceable, and as so
+        modified the entire Agreement shall remain in full force and effect. No
+        decision, action or inaction by LICENSOR shall be construed to be a waiver of
+        any rights or remedies available to it.</p>
+
+      <p id="_4fa1ef5b-3dd5-7a05-3c68-bca93a0f14bb">None of the Intellectual Property or underlying information or technology may be downloaded or otherwise exported or reexported in violation of U.S. export laws and regulations. In addition, you are responsible for complying with any local laws in your jurisdiction which may impact your right to import, export or use the Intellectual Property, and you represent that you have complied with any regulations or registration procedures required by applicable law to make this license enforceable.</p>
+    </clause>
+  </license-statement>
+
+  <legal-statement>
+    
+    
+    <clause>
+      <title>Notice</title>
+      <p id="_a156d1c4-313c-340a-8480-366345e3e0d2">This document is an OGC Member approved international standard. This document is available on a royalty free, non-discriminatory basis. Recipients of this document are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.
+      </p>
+    </clause>
+    
+
+
+    
+
+  </legal-statement>
+
+
+
+
+  <feedback-statement>
+    
+    <clause id="boilerplate-standard-feedback">
+      <p id="_bbc1a653-f270-135d-9455-af930feb3587">Suggested additions, changes and comments on this document are welcome and encouraged. Such suggestions may be submitted using the online change request form on OGC web site: <link target="http://portal.opengeospatial.org/public_ogc/change_request.php">http://portal.opengeospatial.org/public_ogc/change_request.php</link></p>
+    </clause>
+    
+  </feedback-statement>
+</boilerplate>
+<preface><foreword id="_5d854b8f-424d-6e9b-e936-cccf7df5fa29" obligation="informative">
+<title>Preface</title>
+<pagebreak/>
+<table id="_63c21105-69f6-1f11-7716-d23c27140504"><tbody><tr><td valign="middle" align="right"/></tr><tr><td valign="middle" align="right"><strong>Open Geospatial Consortium</strong></td>
+</tr><tr><td valign="middle" align="right">Submission Date: 2023-06-08</td>
+</tr><tr><td valign="middle" align="right">Approval Date:   2023-06-08</td>
+</tr><tr><td valign="middle" align="right">Internal reference number of this OGC® document:    23-041r0</td>
+</tr><tr><td valign="middle" align="right">Category: OGC® Domain Working Group Charter</td>
+</tr><tr><td valign="middle" align="right">Authors:   Charles Heazel</td>
+</tr></tbody>
+</table>
+
+<table id="_0b9287c9-cde4-4b0c-f1f8-97455fc065c7"><tbody><tr><td valign="middle" align="center"><strong>OGC Space Standards Domain Working Group Charter</strong></td>
+</tr></tbody>
+</table>
+
+<table id="_a71936af-a82b-5f0e-c573-c72320f00f64"><tbody><tr><td valign="middle" align="center"><strong>Copyright notice</strong></td>
+</tr><tr><td valign="middle" align="center">Copyright © 2023 Open Geospatial Consortium</td>
+</tr><tr><td valign="middle" align="center">To obtain additional rights of use, visit <link target="http://www.opengeospatial.org/legal/"/></td>
+</tr></tbody>
+</table>
+
+<pagebreak/></foreword><clause type="security" id="_81b1ace7-21d3-2259-3346-8f24ee71ed45" obligation="informative"><title>Security considerations</title><p id="_6bffb48c-5a4a-c73f-8352-74e8ed0d680a">No security considerations have been made for this document.</p></clause></preface><sections>
+<clause id="_introduction" obligation="normative">
+<title>Introduction</title>
+<p id="_650da7fb-8715-3b73-da6e-163d5ff9938b">This Domain Working Group (DWG) charter defines the role for OGC activities within the Space domain and to provide an open forum for the discussion and presentation of interoperability requirements, use cases, pilots, and implementations of OGC Standards in this domain. This Charter is to be presented to the OGC’s Technical and Planning Committees for consideration.</p>
+
+<p id="_f9ad2df7-c375-6968-6c07-36755ec495ab">Domains are distinct Information Communities that defines a user domain where:</p>
+
+<ul id="_29f3f6e2-0eeb-94c9-a72f-835b0f88d80d"><li><p id="_09d51a64-5957-2b19-5c8b-14f1fd0b1e20">A distinct market, application, or business approach exists;</p>
+</li>
+<li><p id="_c5240fd5-dc2b-9aa0-2aa9-ea459e343979">Common data definition, structure, syntax, and definitions exists;</p>
+</li>
+<li><p id="_8a1b2214-86bd-fb16-385a-a8f9a537c0ea">Common user requirements exist; and/or</p>
+</li>
+<li><p id="_bf2da4ae-4e1d-ee36-c98a-5638fff92b56">Common approach to vendors exists</p>
+</li>
+</ul>
+
+<clause id="_working_group" obligation="normative">
+<title>Working Group</title>
+<p id="_9b2a4d01-49e9-5cfe-b757-8aef2bade0a4">Operation of OGC Domain Working Group follows the policies and procedures of the Technical Committee.  The following definition from the Technical Policies and Procedures apply to this DWG Charter template.</p>
+
+<p id="_16c2a8f1-2880-e619-dc83-80d53bffa8a8"><strong>Domain Working Group</strong>: A group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and invited guests, with the specific intent of solving some particular interoperability problem or problems in a particular technology domain for recommendation to the Technical Committee.</p>
+
+<p id="_55b99ffc-bd6d-480d-ca7c-c075957f8d3a">Functions of a Domain Working Group are as follows.</p>
+
+<ul id="_61c483a1-c52d-5393-eb41-9e5071a06509"><li><p id="_67e40ef4-767c-cbcf-eb97-3827d3b94f33">Provide a forum for discussion and documentation of interoperability requirements for a given information or user community.</p>
+</li>
+<li><p id="_0c44a1b5-8d5e-5316-d2f8-12282bf6afc2">Provide a forum to discuss and recommend document actions related to Interoperability Program Reports.</p>
+</li>
+<li><p id="_3398bb94-a986-cbf4-8c20-887532e909ff">Develop Change Requests Proposals (CRPs) for existing OGC Standards.</p>
+</li>
+<li><p id="_ca09f534-9347-4467-5776-75426ec9d9b6">Develop engineering reports with the intent seeking approval by the TC for release of these documents as OGC White Papers, Discussion Papers or Best Practices Papers.</p>
+</li>
+<li><p id="_bc37d06b-9e1f-617c-c09e-fb37e526b929">Informational presentations and discussions about the market use of adopted OGC Standards.</p>
+</li>
+<li><p id="_2d48dd20-8db5-a0cb-3925-ca8c12bbb039">Have a formal approved charter that defines the DWGs Scope of Work and estimated timeline for completion of the work.</p>
+</li>
+<li><p id="_0ba89942-58ae-17d3-77cf-7901a19075c6">Have all-member voting policies (unless otherwise stated).</p>
+</li>
+<li><p id="_c3dcfd83-dcca-9b41-5bbc-85deded6fe4b">Have missions and goals defined by the TC.</p>
+</li>
+</ul>
+
+<p id="_a53e2ee8-8325-e8c7-9704-0ec9ae14a05e">A DWG <underline>Does Not</underline> work on Standards submissions, candidate Standards, or revisions to existing OGC Standards. However, a DWG can develop change requests as document interoperability requirements that can then be submitted as work items to a Standards Working Group (SWG).</p>
+
+<p id="_a5a71721-5f7c-658a-5279-f386201a3472">A DWG may determine that they wish to have public collaboration, such as in teleconference, email discussions, or a public twiki. In this case, the DWG shall make a motion to the TC to approve public participation in the DWG. Voting in DWGs is by simple majority of OGC Members present at the WG meeting, not just Voting TC Members, with the caveat that no OGC Member organization may cast more than one vote in a WG vote.</p>
+</clause>
+</clause>
+
+<clause id="_purpose_of_working_group" obligation="normative">
+<title>Purpose of Working Group</title>
+<p id="_c02efe29-46c5-5cd2-ee3b-0d561d1f8ca0">The Space Standards Domain Working Group will serve as a forum to identify requirements for standardization which are unique for the Space Domain, identify which organizations (if any) are working those requirements, and to promote harmonization and integration of shared concepts across all Space standards.</p>
+</clause>
+
+<clause id="_problem_statement" obligation="normative">
+<title>Problem statement</title>
+<p id="_dbf4d8ea-97bc-5527-d5da-84818266a11c">There is no common concept of “Space Standards”. The Space domain is composed of a wide collection of initiatives, each addressing one part of the whole. Each of these initiatives is developing their own standards and conventions. Attempts to harmonize across these initiatives is limited.</p>
+
+<p id="_098afaf6-3691-c9c5-62d9-3ec1200ddc40">While the OGC cannot solve this problem for all disciplines, it can make sure that the concepts of space and time are consistent and interoperable across all communities in the Space domain. In addition, we can identify emerging Space domain standards which would impact our existing OGC Standards and encourage the impacted SWGs and DWGs to take appropriate action.</p>
+</clause>
+
+<clause id="_charter" obligation="normative">
+<title>Charter</title>
+<clause id="_charter_members" obligation="normative">
+<title>Charter members</title>
+<p id="_f1158401-bee4-9658-f1e7-d2f21013b140">The initial membership of the Space Standards Domain Working Group will consist of the following members and individuals with extensive education and experience in the Space Domain, namely:</p>
+
+<table id="_8601caf9-2392-2e7b-b81d-878af3fe17b1"><tbody><tr><td valign="middle" align="center">Name</td>
+<td valign="middle" align="center">Email</td>
+<td valign="middle" align="center">Organization</td>
+</tr><tr><td valign="middle" align="left">Charles Heazel</td>
+<td valign="middle" align="center"><link target="mailto:cheazel@heazeltech.com"/></td>
+<td valign="middle" align="center">Heazeltech</td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="_key_activities" obligation="normative">
+<title>Key activities</title>
+<ol id="_285f2903-54f4-cacd-688d-ff8b88bc2f1e" type="arabic"><li><p id="_da891f3e-ee06-d762-9910-5ad59b839fa2">Serve as an umbrella DWG for all OGC Domain Working Groups working in the Space Domain.</p>
+</li>
+<li><p id="_0b4d869d-1f3e-4fc2-be77-720a49ec56c3">Identify and document missions in the Space Domain which may have unique standardization requirements.</p>
+</li>
+<li><p id="_e98d66c7-12a6-62bb-b11f-a51eba2c83a3">Identify and document initiatives which are developing Space standards and conventions.</p>
+</li>
+<li><p id="_4cc2db53-b043-4f42-5baa-e4346b15d667">Identify opportunities for the OGC to provide spatial-temporal data models, services, design patterns, and other architectural elements which can serve as a common capability across all Space standardization initiatives.</p>
+</li>
+<li><p id="_91ce0aee-2418-1df8-f378-f15376c4f8a3">Stay current on OGC Space related initaitives and be prepared to report on these efforts to other non-OGC initiatives.</p>
+</li>
+<li><p id="_15212177-9dd3-31c3-e6c0-f1edc8f68903">Liaison with Space standardization initiatives as needed to promote commonality in space-time concepts.</p>
+</li>
+<li><p id="_3c88b7bd-982f-b72c-98e7-0744c4e88f3a">Establish Standards Working Groups as needed to address Space related requirements which are not otherwise being addressed.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_business_case" obligation="normative">
+<title>Business case</title>
+<p id="_5237e0f7-cd58-5a0a-0e1f-07b05cb9ebbf">The domain for Space Standards is large and diverse. There is a risk that the standards, conventions, and practices arising from these diverse interests will be fragmented and non-interoperable. This Domain Working Group seeks to mitigate that risk by promoting space and time as a common enabling technology for all application communities in the Space domain.</p>
+</clause>
+</clause>
+
+<clause id="_organizational_approach_and_scope_of_work" obligation="normative">
+<title>Organizational approach and scope of work</title>
+<clause id="_business_goals" obligation="normative">
+<title>Business goals</title>
+<ol id="_0e25217a-6d31-324e-b247-b17c06edf877" type="arabic"><li><p id="_3855852d-bc2e-fae7-f706-28bf86645ea8">Establish liaison relations with key initiatives in space Standards</p>
+</li>
+<li><p id="_ef4fca16-1f95-2872-be81-ba1bef1a85ec">Achieve consensus on concepts for space and time based on OGC standards.</p>
+</li>
+<li><p id="_3ae10137-7daf-f776-7933-ebaf1d6dcede">Extend OGC Standards to support missions in the Space Domain.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_mission_and_role" obligation="normative">
+<title>Mission and Role</title>
+<p id="_96784e31-df05-3859-4d5a-c3a2c08b3f0c">To serve as a coordinating body for Space Standards leading to interoperable representations for space and time across all Space Standards.</p>
+</clause>
+
+<clause id="_activities_planned_for_space_systems_dwg" obligation="normative">
+<title>Activities planned for Space Systems DWG</title>
+</clause>
+</clause>
+
+
+</sections><bibliography><clause id="_references" obligation="informative">
+<title>Normative references</title><p id="_f87591fa-f71f-796e-5796-2aaa5ce28be1">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+<p id="_69e65bd5-784c-d892-57db-22fe32d4f96c">Some of the resources relevant to the work of this DWG are described below.</p>
+
+<references id="_flexible_image_transport_system_fits" normative="true" obligation="informative">
+<title>Flexible Image Transport System (FITS)</title>
+<ol id="_4e8a88a8-70b2-48bc-98a0-6fe57ef8132c" type="arabic"><li><p id="_a02fd840-d9b0-cf1a-29ff-24bcde82e573"><link target="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EA000388">FITS Format for Planetary Surfaces: Definitions, Applications, and Best Practices</link> gives an overview of FITS and the software ecosystem.</p>
+</li>
+<li><p id="_cd34f6ac-8f34-49f4-e0ba-036c217313b4"><link target="https://voparis-wiki.obspm.fr/display/VES/GeoFITS:+Planetary+Data+FITS+format+and+metadata+convention">Planetary Data FITS format and metadata convention</link> is a wiki page with tables of proposed new keywords for FITS.</p>
+</li>
+<li><p id="_8a48053d-1ac5-59b9-c6e2-3ad0f653e3f1"><link target="https://www.aanda.org/articles/aa/pdf/2002/45/aah3859.pdf">Representations of world coordinates in FITS</link> describes how are assigned physical coordinate values of the image pixels.</p>
+</li>
+<li><p id="_52a757a5-691a-3fcc-bbdb-e4a08c632e26"><link target="https://www.aanda.org/articles/aa/pdf/2002/45/aah3860.pdf">Representations of celestial coordinates in FITS</link> applies spherical map projections to above coordinates.</p>
+</li>
+</ol>
+</references>
+
+<clause id="_the_consultative_committee_for_space_data_systems_ccsds" obligation="informative">
+<title>The Consultative Committee for Space Data Systems (CCSDS)</title>
+<p id="_338145dc-1645-db65-71c3-fda35f562c55">The CCSDS is a multi-national forum for the development of communications &amp; data systems standards for spaceflight. Their publications include:</p>
+
+<ul id="_b9facaa8-986a-d3e7-ae0b-0c88c35fa523"><li><p id="_db5c2a2a-9682-c41c-fb8c-948432bb9161">Space Interworking Services Area, <link target="https://public.ccsds.org/Publications/SIS.aspx"/></p>
+</li>
+<li><p id="_91fa0645-2225-455e-1f6c-e9b20fd31fd2">Motion Imagery, <link target="https://public.ccsds.org/Pubs/706x1g2.pdf"/></p>
+</li>
+<li><p id="_0e0f77cc-2daf-9a54-053d-c4fdb622578f">Digital Motion Imagery, <link target="https://public.ccsds.org/Pubs/766x1b3.pdf"/></p>
+</li>
+<li><p id="_250a5cf9-0e7f-eb43-3d40-9157fb648ce8">Space Link Service Area, <link target="https://public.ccsds.org/Publications/SLS.aspx"/></p>
+</li>
+</ul>
+
+<p id="_208116e2-7edc-4946-4542-822dab04398d">The full set of CCSDS publications can be found at <link target="https://public.ccsds.org/Publications/AllPubs.aspx"/></p>
+
+<p id="_ad7ed53c-ddba-0310-0ec6-04c2cadca031">In 1990, CCSDS entered into an arrangement with the International Standards Organization (ISO) which would allow completed CCSDS standards to be processed and approved as ISO standards. To effect that, ISO Technical Committee 20 Subcommittee 13 was formed and designated “Space Data and Information Transfer Systems”. Effectively, the CCSDS membership now has a dual role, functioning as the CCSDS standards body and as the ISO TC20/SC13 standards body.</p>
+
+<p id="_223f5612-1dee-5257-981a-e2d9e28fc719">ISO TC20/SC13 publications are available from <link target="https://cwe.ccsds.org/cmc/docs/Forms/AllItems.aspx?RootFolder=/cmc/docs/ISO%20TC20-SC13%20Subcommittee&amp;"/></p>
+</clause>
+
+<clause id="_nasa_spice_toolkit" obligation="informative">
+<title>NASA SPICE Toolkit</title>
+<p id="_b03cf197-aec4-8c97-0a1a-f0a1d2040e9c">NASA’s Navigation and Ancillary Information Facility (NAIF) offers NASA flight projects and NASA funded researchers the “SPICE” observation geometry information system to assist scientists in planning and interpreting scientific observations from space-based instruments aboard robotic planetary spacecraft. SPICE is also used in support of engineering tasks associated with these missions. While planetary missions were the original focus, today SPICE is also used on some heliophysics and earth science missions.</p>
+
+<p id="_e0d5b8d0-0abf-a46b-0f0e-1a4af7200db9">The SPICE Toolkit is available from this JPL Web Site <link target="https://naif.jpl.nasa.gov/naif/toolkit.html"/></p>
+</clause>
+
+<clause id="_double_asteroid_redirection_test" obligation="informative">
+<title>Double Asteroid Redirection Test</title>
+<ol id="_f10b6be7-7a8b-4236-7d69-42c9a6131c0d" type="arabic"><li><p id="_5b40ffb9-9ea4-2231-b4eb-4d27c4547b8c">NASA Planetary Defense Coordination Office: <link target="https://www.nasa.gov/specials/pdco/index.html"/></p>
+</li>
+<li><p id="_965e4a67-59f1-22c1-9827-d02e84f36d94">DART Mission Web Site: <link target="https://dart.jhuapl.edu/"/></p>
+</li>
+<li><p id="_38aa6dae-b4f1-f72d-a62f-13a8b591f93d">From Hubble: <link target="https://www.nasa.gov/feature/goddard/2022/webb-hubble-capture-detailed-views-of-dart-impact"/></p>
+</li>
+<li><p id="_2c31f6a7-b018-c20c-f574-d25d950b960f">IAC-17.A3.4B.2 is a paper which describes the DART mission. It includes a description of the flight path which may be sufficient to synthesize DART trajectory data. It is available from <link target="https://www.researchgate.net/publication/312193122_AIDADART_Double_Asteroid_Redirection_Test"/></p>
+</li>
+</ol>
+</clause>
+</clause></bibliography>
+</ogc-standard>
