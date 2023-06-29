@@ -15,8 +15,8 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: 2023-06-08
-|Approval Date:   2023-06-08
+|Submission Date: 2023-06-29
+|Approval Date:   2023-06-29
 |Internal reference number of this OGC(R) document:    23-041r0
 |Category: OGC(R) Domain Working Group Charter
 |Authors:   Charles Heazel
@@ -80,13 +80,13 @@ A DWG may determine that they wish to have public collaboration, such as in tele
 
 == Purpose of Working Group
 
-The Space Standards Domain Working Group will serve as a forum to identify requirements for standardization which are unique for the Space Domain, identify which organizations (if any) are working those requirements, and to promote harmonization and integration of shared concepts across all Space standards.
+The Space Standards Domain Working Group will serve as a forum to identify requirements for standardization which are unique for the Space Domain, identify which organizations (if any) are addressing those requirements, and promote harmonization and integration of shared concepts across all Space standards.
 
 == Problem statement
 
-There is no common concept of “Space Standards”. The Space domain is composed of a wide collection of initiatives, each addressing one part of the whole. Each of these initiatives is developing their own standards and conventions. Attempts to harmonize across these initiatives is limited.
+There is no common concept of “Space Standards”. The Space Domain is composed of a wide collection of initiatives, each addressing one part of the whole. Each of these initiatives develops their own standards and conventions. Attempts to harmonize across these initiatives is limited.
 
-While the OGC cannot solve this problem for all disciplines, it can make sure that the concepts of space and time are consistent and interoperable across all communities in the Space domain. In addition, we can identify emerging Space domain standards which would impact our existing OGC Standards and encourage the impacted SWGs and DWGs to take appropriate action.
+While the OGC cannot solve this problem for all disciplines, it can make sure that the concepts of space and time are consistent and interoperable across all communities in the Space Domain. In addition, the OGC can identify emerging Space Domain standards which would impact existing OGC Standards and encourage the impacted SWGs and DWGs to take appropriate action.
 
 == Charter
 
@@ -109,19 +109,19 @@ The initial membership of the Space Standards Domain Working Group will consist 
 . Identify and document missions in the Space Domain which may have unique standardization requirements.
 . Identify and document initiatives which are developing Space standards and conventions.
 . Identify opportunities for the OGC to provide spatial-temporal data models, services, design patterns, and other architectural elements which can serve as a common capability across all Space standardization initiatives.
-. Stay current on OGC Space related initaitives and be prepared to report on these efforts to other non-OGC initiatives.
+. Stay current on OGC Space related initiatives and be prepared to report on these efforts to other non-OGC initiatives.
 . Liaison with Space standardization initiatives as needed to promote commonality in space-time concepts.
 . Establish Standards Working Groups as needed to address Space related requirements which are not otherwise being addressed.
 
 === Business case
 
-The domain for Space Standards is large and diverse. There is a risk that the standards, conventions, and practices arising from these diverse interests will be fragmented and non-interoperable. This Domain Working Group seeks to mitigate that risk by promoting space and time as a common enabling technology for all application communities in the Space domain.
+The domain for Space Standards is large and diverse. There is a risk that the standards, conventions, and practices arising from these diverse interests will be fragmented and non-interoperable. This Domain Working Group seeks to mitigate that risk by promoting space and time as a common enabling technology for all application communities in the Space Domain.
 
 == Organizational approach and scope of work
 
 === Business goals
 
-. Establish liaison relations with key initiatives in space Standards
+. Establish liaison relations with key initiatives in space Standards.
 . Achieve consensus on concepts for space and time based on OGC standards.
 . Extend OGC Standards to support missions in the Space Domain.
 
@@ -151,7 +151,31 @@ The DOMAIN WG will concern itself with technology and technology policy issues, 
 2.	Define the role of the DOMAIN WG to present, refine and focus interoperability-related issues to the Technical Committee.
 ////
 
-=== Activities planned for Space Systems DWG
+=== Activities planned for Space Standards DWG
+
+The following activities are planned for the Space Standards DWG:
+
+. Develop a taxonomy of Space Missions including:
+.. Mapping, Charting, and Geodesy for non-terrestrial planets
+.. Positioning, Navigation, and Targeting (PNT) on non-terrestrial planets.
+.. Facilites development and management on non-terrestial planets
+.. Facilites development and management in Space.
+.. Positioning, Navigation, and Targeting (PNT) for orbital trajectories.
+.. Positioning, Navigation, and Targeting (PNT) in Free space.
+.. Space Traffic Management
+.. Planetary Defense
+.. Space object defense
+.. Space debry management
+. Identify the information and computational capabilites needed to execute each mission.
+. Identify capabilities shared across two or more missions
+. Identify existing standards or standards development initiatives to address each capability
+. Evaluate the body of standards for consistency, interoperability, and completeness
+. Propose the formation of OGC Standards Working Groups as needed to address gaps in the body of Space standards.
+. Engage with Space Standards development organizations in an attempt to better integrate Space Standards.
+. Serve as the Standards Development Organization (SDO) for Space Standards that were not developed by a formal SDO. 
+
+It is anticipated that a Reference Architecture will be required to support these tasks. Development of that Reference Architecture may be performed under this charter.
+
 
 ////
 Define scope of work and tasks in terms of interoperability approaches for OGC Technical Committee consideration, define how this is to complement existing efforts and results produced by the OpenGIS Project, resulting in a specification for all forms of geospatial data and geoprocessing services. The following points should be discussed under scope of work and tasks.

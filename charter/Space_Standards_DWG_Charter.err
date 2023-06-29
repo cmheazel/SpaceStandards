@@ -30,9 +30,9 @@
 == Metanorma XML Style Warning
 
 (XML Line 000013): Table should have title
-	<table id="_63c21105-69f6-1f11-7716-d23c27140504"><tbody><tr><td valign="middle" align="right"/></tr><tr><td valign="middle" align="right"><strong>Open Geospatial Consortium</strong></td>
-	</tr><tr><td valign="middle" align="right">Submission Date: 2023-06-08</td>
-	</tr><tr><td valign="middle" align="right">Approval Date:   2023-06-08</td>
+	<table id="_5cef1034-6a3b-e827-17ab-1db9f432c0ee"><tbody><tr><td valign="middle" align="right"/></tr><tr><td valign="middle" align="right"><strong>Open Geospatial Consortium</strong></td>
+	</tr><tr><td valign="middle" align="right">Submission Date: 2023-06-29</td>
+	</tr><tr><td valign="middle" align="right">Approval Date:   2023-06-29</td>
 	</tr><tr><td valign="middle" align="right">Internal reference number of this OGC® document:    23-041r0</td>
 	</tr><tr><td valign="middle" align="right">Category: OGC® Domain Working Group Charter</td>
 (XML Line 000022): Table should have title
@@ -57,7 +57,7 @@
 	<td valign="middle" align="center">Organization</td>
 	</tr><tr><td valign="middle" align="left">Charles Heazel</td>
 	<td valign="middle" align="center"><link target="mailto:cheazel@heazeltech.com"/></td>
-(XML Line 000157): Hanging paragraph in clause
+(XML Line 000199): Hanging paragraph in clause
 	<clause id="_references" obligation="informative">
 	<title>Normative references</title><p id="_f87591fa-f71f-796e-5796-2aaa5ce28be1">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
 	<p id="_69e65bd5-784c-d892-57db-22fe32d4f96c">Some of the resources relevant to the work of this DWG are described below.</p>
@@ -69,6 +69,6 @@
 
 (XML Line 000009:113): element "ext" incomplete; missing required element "editorialgroup"
 (XML Line 000151:116): element "clause" not allowed here; expected the element end-tag or element "submitters"
-(XML Line 000294:96): element "clause" not allowed here; expected the element end-tag or element "references"
-(XML Line 000315:59): element "clause" not allowed here; expected the element end-tag or element "references"
-(XML Line 000322:73): element "clause" not allowed here; expected the element end-tag or element "references"
+(XML Line 000336:96): element "clause" not allowed here; expected the element end-tag or element "references"
+(XML Line 000357:59): element "clause" not allowed here; expected the element end-tag or element "references"
+(XML Line 000364:73): element "clause" not allowed here; expected the element end-tag or element "references"
