@@ -8,5 +8,5 @@ This Charter defines the Space Domain as an information community which encompas
 
 The draft charter is avaialable in both HTML and PDF formats.
 
-. The HTML version is at http://htmlpreview.github.io/?https://github.com/opengeospatial/SpaceStandards/blob/main/charter/Space_Standards_DWG_Charter.html.
-. The PDF version is at https://github.com/opengeospatial/SpaceStandards/blob/main/charter/Space_Standards_DWG_Charter.pdf.
+. The HTML version is at http://htmlpreview.github.io/?https://github.com/cmheazel/SpaceStandards/blob/main/charter/Space_Standards_DWG_Charter.html.
+. The PDF version is at https://github.com/cmheazel/SpaceStandards/blob/main/charter/Space_Standards_DWG_Charter.pdf.
