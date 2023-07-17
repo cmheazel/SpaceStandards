@@ -1,2 +1,2 @@
-asciidoctor -r asciidoctor-pdf --trace -b pdf -o 20-010.pdf CityGML_Conceptual_Model.adoc
+asciidoctor -r asciidoctor-pdf --trace -b pdf -o Space_Standards_DWG_Charter.pdf Space_Standards_DWG_Charter.adoc
 
