@@ -15,8 +15,8 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: 2023-07-17
-|Approval Date:   2023-07-17
+|Submission Date: 2023-07-21
+|Approval Date:   2023-07-21
 |Internal reference number of this OGC(R) document:    23-041r0
 |Category: OGC(R) Domain Working Group Charter
 |Authors:   Charles Heazel
@@ -38,7 +38,7 @@
 
 == Introduction
 
-This Domain Working Group (DWG) charter defines the role for OGC activities within the Space Domain and to provide an open forum for the discussion and presentation of interoperability requirements, use cases, pilots, and implementations of OGC Standards in this domain. This Charter is to be presented to the OGC’s Technical and Planning Committees for consideration.
+This Domain Working Group (DWG) charter defines the role for OGC activities within the Space Domain and provides an open forum for the presentation and discussion of interoperability requirements, use cases, pilots, and implementations of OGC Standards in this domain. This Charter is to be presented to the OGC’s Technical and Planning Committees for consideration.
 
 Domains are distinct Information Communities that defines a user domain where:
 
@@ -54,7 +54,7 @@ This Charter defines the Space Domain as an information community which encompas
 
 === Working Group
 
-Operation of OGC Space Domain Working Group follows the policies and procedures of the Technical Committee.  The following definition from the Technical Policies and Procedures apply to this DWG Charter.
+Operation of the OGC Space Domain Working Group follows the policies and procedures of the Technical Committee.  The following definition from the Technical Policies and Procedures apply to this DWG Charter.
 
 *Domain Working Group*: A group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and invited guests, with the specific intent of solving some particular interoperability problem or problems in a particular technology domain for recommendation to the Technical Committee.
 
@@ -66,7 +66,7 @@ Functions of a Domain Working Group are as follows.
 
 * Develop Change Requests Proposals (CRPs) for existing OGC Standards.
 
-* Develop engineering reports with the intent seeking approval by the TC for release of these documents as OGC White Papers, Discussion Papers or Best Practices Papers.
+* Develop engineering reports with the intent of seeking approval by the TC for release of these documents as OGC White Papers, Discussion Papers or Best Practices Papers.
 
 * Informational presentations and discussions about the market use of adopted OGC Standards.
 
@@ -76,7 +76,7 @@ Functions of a Domain Working Group are as follows.
 
 * Have missions and goals defined by the TC.
 
-A DWG [underline]#Does Not# work on Standards submissions, candidate Standards, or revisions to existing OGC Standards. However, a DWG can develop change requests as document interoperability requirements that can then be submitted as work items to a Standards Working Group (SWG).
+A DWG [underline]#Does Not# work on Standards submissions, candidate Standards, or revisions to existing OGC Standards. However, a DWG can develop change requests as documentation of interoperability requirements that can then be submitted as work items to a Standards Working Group (SWG).
 
 A DWG may determine that they wish to have public collaboration, such as in teleconference, email discussions, or a public twiki. In this case, the DWG shall make a motion to the TC to approve public participation in the DWG. Voting in DWGs is by simple majority of OGC Members present at the WG meeting, not just Voting TC Members, with the caveat that no OGC Member organization may cast more than one vote in a WG vote.
 
@@ -132,8 +132,8 @@ The Space Standards DWG will address the business case described above by workin
 
 . Enable rational discussion of Space Standards by decomposing the Space Domain into more manageable sub-domains and/or mission areas.
 . Identify existing Standards and common practices in the Space Domains.
-. Establish liaison relations with key initiatives in space Standards.
-. Achieve consensus on concepts for space and time based on OGC standards.
+. Establish liaison relations with key initiatives in Space Standards.
+. Achieve consensus on concepts for space and time based on OGC Standards.
 . Extend OGC Standards to support missions in the Space Domains.
 
 === Mission and Role
