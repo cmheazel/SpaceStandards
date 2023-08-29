@@ -17,7 +17,7 @@
 |[big]*Open Geospatial Consortium*
 |Submission Date: 2023-08-29
 |Approval Date:   2023-08-29
-|Internal reference number of this OGC(R) document:    23-041r0
+|Internal reference number of this OGC(R) document:    23-041r1
 |Category: OGC(R) Domain Working Group Charter
 |Authors:   Charles Heazel
 |===
@@ -81,7 +81,7 @@ A DWG may determine that they wish to have public collaboration, such as in tele
 
 == Purpose of Working Group
 
-This Charter defines the Space Domain as an information community which encompasses all spatiotemporal information and applications which are not centered on the planet Earth. 
+This Charter defines the Space Domain as the area above the altitude where atmospheric effects on airborne objects become negligible. Specifically, the area surrounding the Earth at altitudes equal to, or greater than, 100 kilometers (54 nautical miles) above mean sea level. 
 
 The Space Standards Domain Working Group will serve as a forum to identify requirements for standardization which are unique for the Space Domain, identify which organizations (if any) are addressing those requirements, and promote harmonization and integration of shared concepts across all Space standards.
 
@@ -112,7 +112,7 @@ The initial membership of the Space Standards Domain Working Group will consist 
 
 Key activities for the DWG include the following efforts:
 
-. Serve as an umbrella DWG for all OGC Domain Working Groups working in the Space Domain.
+. Serve as an coordinating body for all OGC Domain Working Groups working in the Space Domain.
 . Decompose the Space Domain into a manageable set of sub-domains.
 . Identify and document missions in the Space Domain which may have unique standardization requirements.
 . Identify and document initiatives which are developing Space standards and conventions.
@@ -183,7 +183,7 @@ It is anticipated that a Reference Architecture will be required to support thes
 
 The following definitions apply to terms used in this Charter:
 
-Space Domain: an information community which encompasses all spatiotemporal information and applications which are not centered on the planet Earth.
+Space Domain: an information community which encompasses the area above the altitude where atmospheric effects on airborne objects become negligible https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3_14ch1.pdf?ver=GfzdjuluCyyHDS9D_RtkNA%3D%3D[Space Operations, Joint Publication 3-14].
 
 Cislunar: the large region of space in the Earth-Moon system beyond geosynchronous (GEO) orbit, including the Moon (https://www.whitehouse.gov/ostp/news-updates/2022/11/17/fact-sheet-first-national-cislunar-science-technology-strategy/[FACT SHEET: First National Cislunar Science & Technology Strategy])
 
@@ -225,3 +225,4 @@ The SPICE Toolkit is available from this JPL Web Site https://naif.jpl.nasa.gov/
 . DART Mission Web Site: https://dart.jhuapl.edu/[https://dart.jhuapl.edu/]
 . From Hubble: https://www.nasa.gov/feature/goddard/2022/webb-hubble-capture-detailed-views-of-dart-impact[https://www.nasa.gov/feature/goddard/2022/webb-hubble-capture-detailed-views-of-dart-impact]
 . IAC-17.A3.4B.2 is a paper which describes the DART mission. It includes a description of the flight path which may be sufficient to synthesize DART trajectory data. It is available from https://www.researchgate.net/publication/312193122_AIDADART_Double_Asteroid_Redirection_Test[https://www.researchgate.net/publication/312193122_AIDADART_Double_Asteroid_Redirection_Test]
+
