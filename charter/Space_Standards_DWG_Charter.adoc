@@ -15,8 +15,8 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: 2023-07-21
-|Approval Date:   2023-07-21
+|Submission Date: 2023-08-29
+|Approval Date:   2023-08-29
 |Internal reference number of this OGC(R) document:    23-041r0
 |Category: OGC(R) Domain Working Group Charter
 |Authors:   Charles Heazel
@@ -49,12 +49,11 @@ Domains are distinct Information Communities that defines a user domain where:
 * Common user requirements exist; and/or
 
 * Common approach to vendors exists
-
-This Charter defines the Space Domain as an information community which encompasses all spatial-temporal information and applications which are not centered on the planet Earth.   
+This Charter defines the Space Domain as an information community which encompasses all spatiotemporal information and applications which are not centered on the planet Earth.   
 
 === Working Group
 
-Operation of the OGC Space Domain Working Group follows the policies and procedures of the Technical Committee.  The following definition from the Technical Policies and Procedures apply to this DWG Charter.
+Operation of the OGC Space Domain Working Group follows the policies and procedures of the Technical Committee. The following definition from the Technical Policies and Procedures apply to this DWG Charter.
 
 *Domain Working Group*: A group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and invited guests, with the specific intent of solving some particular interoperability problem or problems in a particular technology domain for recommendation to the Technical Committee.
 
@@ -82,7 +81,7 @@ A DWG may determine that they wish to have public collaboration, such as in tele
 
 == Purpose of Working Group
 
-This Charter defines the Space Domain as an information community which encompasses all spatial-temporal information and applications which are not centered on the planet Earth. 
+This Charter defines the Space Domain as an information community which encompasses all spatiotemporal information and applications which are not centered on the planet Earth. 
 
 The Space Standards Domain Working Group will serve as a forum to identify requirements for standardization which are unique for the Space Domain, identify which organizations (if any) are addressing those requirements, and promote harmonization and integration of shared concepts across all Space standards.
 
@@ -94,7 +93,7 @@ While the OGC cannot solve this problem for all disciplines, it can make sure th
 
 == Charter
 
-The scope of the Space Standards DWG is to identify, develop, and promote interoperable spatial-temporal standards for application in non-terrestrial environments. 
+The scope of the Space Standards DWG is to identify, develop, and promote interoperable spatiotemporal standards for application in non-terrestrial environments. 
 
 The Space Standards DWG will coordinate with standards bodies and working groups both within and outside of the OGC in pursuit of this objective.
 
@@ -105,6 +104,8 @@ The initial membership of the Space Standards Domain Working Group will consist 
 |====
 ^|Name ^| Email ^| Organization
 | Charles Heazel ^| mailto:cheazel@heazeltech.com[cheazel@heazeltech.com] ^| Heazeltech
+| Carl Reed ^| mailto:carl.n.reed@gmail.com[carl.n.reed@gmail.com] ^| Carl Reed and Associates ^|
+
 |====
 
 === Key activities
@@ -115,7 +116,7 @@ Key activities for the DWG include the following efforts:
 . Decompose the Space Domain into a manageable set of sub-domains.
 . Identify and document missions in the Space Domain which may have unique standardization requirements.
 . Identify and document initiatives which are developing Space standards and conventions.
-. Identify opportunities for the OGC to provide spatial-temporal data models, services, design patterns, and other architectural elements which can serve as a common capability across all Space standardization initiatives.
+. Identify opportunities for the OGC to provide spatiotemporal data models, services, design patterns, and other architectural elements which can serve as a common capability across all Space standardization initiatives.
 . Stay current on OGC Space related initiatives and be prepared to report on these efforts to other non-OGC initiatives.
 . Liaison with Space standardization initiatives as needed to promote commonality in space-time concepts.
 . Establish Standards Working Groups as needed to address Space related requirements which are not otherwise being addressed.
@@ -160,6 +161,7 @@ The following activities are planned for the Space Standards DWG:
 .. Planetary Defense
 .. Space object defense
 .. Space debris management
+.. Space Weather
 . Identify the information and computational capabilities needed to execute each mission.
 . Identify capabilities shared across two or more missions
 . Identify existing standards or standards development initiatives to address each capability
@@ -174,7 +176,7 @@ It is anticipated that a Reference Architecture will be required to support thes
 
 The following definitions apply to terms used in this Charter:
 
-Space Domain: an information community which encompasses all spatial-temporal information and applications which are not centered on the planet Earth.
+Space Domain: an information community which encompasses all spatiotemporal information and applications which are not centered on the planet Earth.
 
 CISLunar: the large region of space in the Earth-Moon system beyond geosynchronous (GEO) orbit, including the Moon (https://www.whitehouse.gov/ostp/news-updates/2022/11/17/fact-sheet-first-national-cislunar-science-technology-strategy/[FACT SHEET: First National Cislunar Science & Technology Strategy])
 
