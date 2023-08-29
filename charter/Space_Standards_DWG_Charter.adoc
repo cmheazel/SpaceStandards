@@ -148,20 +148,27 @@ The following activities are planned for the Space Standards DWG:
 . Decompose the Space Domain into sub-domains, potentially including:
 .. Lunar
 .. Martian
-.. CISLunar
+.. Cislunar
 .. Deep Space
 . Develop a taxonomy of Space Missions including:
-.. Mapping, Charting, and Geodesy for non-terrestrial planets
-.. Positioning, Navigation, and Targeting (PNT) on non-terrestrial planets.
-.. Facilities development and management on non-terrestrial planets
-.. Facilities development and management in Space.
-.. Positioning, Navigation, and Targeting (PNT) for orbital trajectories.
-.. Positioning, Navigation, and Targeting (PNT) in Free space.
-.. Space Traffic Management
-.. Planetary Defense
-.. Space object defense
-.. Space debris management
-.. Space Weather
+.. Mapping, Positioning, and Navigation
+... Celestial and celestrial body-centirc coordinate reference systems
+... Celestial mapping
+... 3D+ positioning
+... Navigation within and between coordinate reference systems
+... Integration of general and special relativity
+.. Space Situational Awareness
+... Space Traffic Management
+... Space debris tracking and removal
+... Planetary/asset defense
+... Orbit management
+... Radio frequency spectrum management
+.. Space Topology
+... Space weather
+... Space energy
+.. Space Assets
+... Digital twins / Space infrastructure
+... Inhabitation plans
 . Identify the information and computational capabilities needed to execute each mission.
 . Identify capabilities shared across two or more missions
 . Identify existing standards or standards development initiatives to address each capability
@@ -178,7 +185,7 @@ The following definitions apply to terms used in this Charter:
 
 Space Domain: an information community which encompasses all spatiotemporal information and applications which are not centered on the planet Earth.
 
-CISLunar: the large region of space in the Earth-Moon system beyond geosynchronous (GEO) orbit, including the Moon (https://www.whitehouse.gov/ostp/news-updates/2022/11/17/fact-sheet-first-national-cislunar-science-technology-strategy/[FACT SHEET: First National Cislunar Science & Technology Strategy])
+Cislunar: the large region of space in the Earth-Moon system beyond geosynchronous (GEO) orbit, including the Moon (https://www.whitehouse.gov/ostp/news-updates/2022/11/17/fact-sheet-first-national-cislunar-science-technology-strategy/[FACT SHEET: First National Cislunar Science & Technology Strategy])
 
 == References
 
