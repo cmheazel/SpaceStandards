@@ -15,8 +15,8 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: 2023-08-29
-|Approval Date:   2023-08-29
+|Submission Date: 2023-09-01
+|Approval Date:   2023-09-01
 |Internal reference number of this OGC(R) document:    23-041r1
 |Category: OGC(R) Domain Working Group Charter
 |Authors:   Charles Heazel
