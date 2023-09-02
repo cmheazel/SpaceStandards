@@ -104,9 +104,8 @@ The initial membership of the Space Standards Domain Working Group will consist 
 |====
 ^|Name ^| Email ^| Organization
 | Charles Heazel ^| mailto:cheazel@heazeltech.com[cheazel@heazeltech.com] ^| Heazeltech
-| Carl Reed ^| mailto:carl.n.reed@gmail.com[carl.n.reed@gmail.com] ^| Carl Reed and Associates ^|
-| Don Sullivan ^|| NASA
-
+| Carl Reed ^| mailto:carl.n.reed@gmail.com[carl.n.reed@gmail.com] ^| Carl Reed and Associates
+| Don Sullivan ^| ^|NASA
 |====
 
 === Key activities
